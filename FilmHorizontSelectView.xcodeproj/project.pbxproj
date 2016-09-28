@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E232FE31D9B9D7600FD49DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E232FE21D9B9D7600FD49DA /* main.m */; };
+		5E232FE61D9B9D7600FD49DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E232FE51D9B9D7600FD49DA /* AppDelegate.m */; };
+		5E232FE91D9B9D7600FD49DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E232FE81D9B9D7600FD49DA /* ViewController.m */; };
+		5E232FEC1D9B9D7600FD49DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E232FEA1D9B9D7600FD49DA /* Main.storyboard */; };
+		5E232FEE1D9B9D7600FD49DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E232FED1D9B9D7600FD49DA /* Assets.xcassets */; };
+		5E232FF11D9B9D7600FD49DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E232FEF1D9B9D7600FD49DA /* LaunchScreen.storyboard */; };
+		5E232FFC1D9B9D7600FD49DA /* FilmHorizontSelectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E232FFB1D9B9D7600FD49DA /* FilmHorizontSelectViewTests.m */; };
+		5E2330071D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2330061D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.m */; };
+		5E23301A1D9B9DC300FD49DA /* YXFilmSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2330191D9B9DC300FD49DA /* YXFilmSelectView.m */; };
+		5E2330261D9BA7EB00FD49DA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2330211D9BA7EB00FD49DA /* UIImage+ImageEffects.m */; };
+		5E2330271D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2330231D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.m */; };
+		5E2330281D9BA7EB00FD49DA /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2330251D9BA7EB00FD49DA /* UIView+Positioning.m */; };
+		D711EC06065285F6519D5B26 /* Pods_FilmHorizontSelectView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00BC70811A4C5843C12421D /* Pods_FilmHorizontSelectView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E232FF81D9B9D7600FD49DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E232FD61D9B9D7600FD49DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E232FDD1D9B9D7600FD49DA;
+			remoteInfo = FilmHorizontSelectView;
+		};
+		5E2330031D9B9D7600FD49DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E232FD61D9B9D7600FD49DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E232FDD1D9B9D7600FD49DA;
+			remoteInfo = FilmHorizontSelectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E232FDE1D9B9D7600FD49DA /* FilmHorizontSelectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmHorizontSelectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E232FE21D9B9D7600FD49DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E232FE41D9B9D7600FD49DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E232FE51D9B9D7600FD49DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E232FE71D9B9D7600FD49DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		5E232FE81D9B9D7600FD49DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		5E232FEB1D9B9D7600FD49DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E232FED1D9B9D7600FD49DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E232FF01D9B9D7600FD49DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E232FF21D9B9D7600FD49DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E232FF71D9B9D7600FD49DA /* FilmHorizontSelectViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmHorizontSelectViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E232FFB1D9B9D7600FD49DA /* FilmHorizontSelectViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmHorizontSelectViewTests.m; sourceTree = "<group>"; };
+		5E232FFD1D9B9D7600FD49DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2330021D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmHorizontSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2330061D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmHorizontSelectViewUITests.m; sourceTree = "<group>"; };
+		5E2330081D9B9D7600FD49DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2330181D9B9DC300FD49DA /* YXFilmSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFilmSelectView.h; sourceTree = "<group>"; };
+		5E2330191D9B9DC300FD49DA /* YXFilmSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFilmSelectView.m; sourceTree = "<group>"; };
+		5E2330201D9BA7EB00FD49DA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		5E2330211D9BA7EB00FD49DA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		5E2330221D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		5E2330231D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		5E2330241D9BA7EB00FD49DA /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		5E2330251D9BA7EB00FD49DA /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		67559AECD957986EDD84BD39 /* Pods-FilmHorizontSelectView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmHorizontSelectView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilmHorizontSelectView/Pods-FilmHorizontSelectView.release.xcconfig"; sourceTree = "<group>"; };
+		9B39F60F8DEB32C70D982F06 /* Pods-FilmHorizontSelectView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmHorizontSelectView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilmHorizontSelectView/Pods-FilmHorizontSelectView.debug.xcconfig"; sourceTree = "<group>"; };
+		D00BC70811A4C5843C12421D /* Pods_FilmHorizontSelectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmHorizontSelectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E232FDB1D9B9D7600FD49DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D711EC06065285F6519D5B26 /* Pods_FilmHorizontSelectView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E232FF41D9B9D7600FD49DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E232FFF1D9B9D7600FD49DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E232FD51D9B9D7600FD49DA = {
+			isa = PBXGroup;
+			children = (
+				5E232FE01D9B9D7600FD49DA /* FilmHorizontSelectView */,
+				5E232FFA1D9B9D7600FD49DA /* FilmHorizontSelectViewTests */,
+				5E2330051D9B9D7600FD49DA /* FilmHorizontSelectViewUITests */,
+				5E232FDF1D9B9D7600FD49DA /* Products */,
+				DFF2E3841B30FC23602B198B /* Pods */,
+				A6667D870EC5F25186B6D059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E232FDF1D9B9D7600FD49DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E232FDE1D9B9D7600FD49DA /* FilmHorizontSelectView.app */,
+				5E232FF71D9B9D7600FD49DA /* FilmHorizontSelectViewTests.xctest */,
+				5E2330021D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E232FE01D9B9D7600FD49DA /* FilmHorizontSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				5E23301F1D9BA7EB00FD49DA /* Category */,
+				5E2330141D9B9DC300FD49DA /* Main */,
+				5E232FE41D9B9D7600FD49DA /* AppDelegate.h */,
+				5E232FE51D9B9D7600FD49DA /* AppDelegate.m */,
+				5E232FEA1D9B9D7600FD49DA /* Main.storyboard */,
+				5E232FED1D9B9D7600FD49DA /* Assets.xcassets */,
+				5E232FEF1D9B9D7600FD49DA /* LaunchScreen.storyboard */,
+				5E232FF21D9B9D7600FD49DA /* Info.plist */,
+				5E232FE11D9B9D7600FD49DA /* Supporting Files */,
+			);
+			path = FilmHorizontSelectView;
+			sourceTree = "<group>";
+		};
+		5E232FE11D9B9D7600FD49DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E232FE21D9B9D7600FD49DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E232FFA1D9B9D7600FD49DA /* FilmHorizontSelectViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E232FFB1D9B9D7600FD49DA /* FilmHorizontSelectViewTests.m */,
+				5E232FFD1D9B9D7600FD49DA /* Info.plist */,
+			);
+			path = FilmHorizontSelectViewTests;
+			sourceTree = "<group>";
+		};
+		5E2330051D9B9D7600FD49DA /* FilmHorizontSelectViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E2330061D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.m */,
+				5E2330081D9B9D7600FD49DA /* Info.plist */,
+			);
+			path = FilmHorizontSelectViewUITests;
+			sourceTree = "<group>";
+		};
+		5E2330141D9B9DC300FD49DA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5E2330151D9B9DC300FD49DA /* controller */,
+				5E2330161D9B9DC300FD49DA /* model */,
+				5E2330171D9B9DC300FD49DA /* view */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5E2330151D9B9DC300FD49DA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E232FE71D9B9D7600FD49DA /* ViewController.h */,
+				5E232FE81D9B9D7600FD49DA /* ViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5E2330161D9B9DC300FD49DA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5E2330171D9B9DC300FD49DA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5E2330181D9B9DC300FD49DA /* YXFilmSelectView.h */,
+				5E2330191D9B9DC300FD49DA /* YXFilmSelectView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5E23301F1D9BA7EB00FD49DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5E2330201D9BA7EB00FD49DA /* UIImage+ImageEffects.h */,
+				5E2330211D9BA7EB00FD49DA /* UIImage+ImageEffects.m */,
+				5E2330221D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.h */,
+				5E2330231D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.m */,
+				5E2330241D9BA7EB00FD49DA /* UIView+Positioning.h */,
+				5E2330251D9BA7EB00FD49DA /* UIView+Positioning.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A6667D870EC5F25186B6D059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00BC70811A4C5843C12421D /* Pods_FilmHorizontSelectView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF2E3841B30FC23602B198B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B39F60F8DEB32C70D982F06 /* Pods-FilmHorizontSelectView.debug.xcconfig */,
+				67559AECD957986EDD84BD39 /* Pods-FilmHorizontSelectView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E232FDD1D9B9D7600FD49DA /* FilmHorizontSelectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E23300B1D9B9D7600FD49DA /* Build configuration list for PBXNativeTarget "FilmHorizontSelectView" */;
+			buildPhases = (
+				BA1CB77A7C6808C51DE0941B /* [CP] Check Pods Manifest.lock */,
+				5E232FDA1D9B9D7600FD49DA /* Sources */,
+				5E232FDB1D9B9D7600FD49DA /* Frameworks */,
+				5E232FDC1D9B9D7600FD49DA /* Resources */,
+				F97F6059C906F199D74DF809 /* [CP] Embed Pods Frameworks */,
+				182B3DE3C61C95A7A756BC06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmHorizontSelectView;
+			productName = FilmHorizontSelectView;
+			productReference = 5E232FDE1D9B9D7600FD49DA /* FilmHorizontSelectView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E232FF61D9B9D7600FD49DA /* FilmHorizontSelectViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E23300E1D9B9D7600FD49DA /* Build configuration list for PBXNativeTarget "FilmHorizontSelectViewTests" */;
+			buildPhases = (
+				5E232FF31D9B9D7600FD49DA /* Sources */,
+				5E232FF41D9B9D7600FD49DA /* Frameworks */,
+				5E232FF51D9B9D7600FD49DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E232FF91D9B9D7600FD49DA /* PBXTargetDependency */,
+			);
+			name = FilmHorizontSelectViewTests;
+			productName = FilmHorizontSelectViewTests;
+			productReference = 5E232FF71D9B9D7600FD49DA /* FilmHorizontSelectViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E2330011D9B9D7600FD49DA /* FilmHorizontSelectViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2330111D9B9D7600FD49DA /* Build configuration list for PBXNativeTarget "FilmHorizontSelectViewUITests" */;
+			buildPhases = (
+				5E232FFE1D9B9D7600FD49DA /* Sources */,
+				5E232FFF1D9B9D7600FD49DA /* Frameworks */,
+				5E2330001D9B9D7600FD49DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2330041D9B9D7600FD49DA /* PBXTargetDependency */,
+			);
+			name = FilmHorizontSelectViewUITests;
+			productName = FilmHorizontSelectViewUITests;
+			productReference = 5E2330021D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E232FD61D9B9D7600FD49DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = vivian;
+				TargetAttributes = {
+					5E232FDD1D9B9D7600FD49DA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5ZUCVYSATS;
+						ProvisioningStyle = Automatic;
+					};
+					5E232FF61D9B9D7600FD49DA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E232FDD1D9B9D7600FD49DA;
+					};
+					5E2330011D9B9D7600FD49DA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E232FDD1D9B9D7600FD49DA;
+					};
+				};
+			};
+			buildConfigurationList = 5E232FD91D9B9D7600FD49DA /* Build configuration list for PBXProject "FilmHorizontSelectView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E232FD51D9B9D7600FD49DA;
+			productRefGroup = 5E232FDF1D9B9D7600FD49DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E232FDD1D9B9D7600FD49DA /* FilmHorizontSelectView */,
+				5E232FF61D9B9D7600FD49DA /* FilmHorizontSelectViewTests */,
+				5E2330011D9B9D7600FD49DA /* FilmHorizontSelectViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E232FDC1D9B9D7600FD49DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E232FF11D9B9D7600FD49DA /* LaunchScreen.storyboard in Resources */,
+				5E232FEE1D9B9D7600FD49DA /* Assets.xcassets in Resources */,
+				5E232FEC1D9B9D7600FD49DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E232FF51D9B9D7600FD49DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2330001D9B9D7600FD49DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182B3DE3C61C95A7A756BC06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilmHorizontSelectView/Pods-FilmHorizontSelectView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1CB77A7C6808C51DE0941B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F97F6059C906F199D74DF809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilmHorizontSelectView/Pods-FilmHorizontSelectView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E232FDA1D9B9D7600FD49DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E232FE91D9B9D7600FD49DA /* ViewController.m in Sources */,
+				5E2330261D9BA7EB00FD49DA /* UIImage+ImageEffects.m in Sources */,
+				5E2330281D9BA7EB00FD49DA /* UIView+Positioning.m in Sources */,
+				5E23301A1D9B9DC300FD49DA /* YXFilmSelectView.m in Sources */,
+				5E2330271D9BA7EB00FD49DA /* UIImageView+LBBlurredImage.m in Sources */,
+				5E232FE61D9B9D7600FD49DA /* AppDelegate.m in Sources */,
+				5E232FE31D9B9D7600FD49DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E232FF31D9B9D7600FD49DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E232FFC1D9B9D7600FD49DA /* FilmHorizontSelectViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E232FFE1D9B9D7600FD49DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2330071D9B9D7600FD49DA /* FilmHorizontSelectViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E232FF91D9B9D7600FD49DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E232FDD1D9B9D7600FD49DA /* FilmHorizontSelectView */;
+			targetProxy = 5E232FF81D9B9D7600FD49DA /* PBXContainerItemProxy */;
+		};
+		5E2330041D9B9D7600FD49DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E232FDD1D9B9D7600FD49DA /* FilmHorizontSelectView */;
+			targetProxy = 5E2330031D9B9D7600FD49DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E232FEA1D9B9D7600FD49DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E232FEB1D9B9D7600FD49DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E232FEF1D9B9D7600FD49DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E232FF01D9B9D7600FD49DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E2330091D9B9D7600FD49DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E23300A1D9B9D7600FD49DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E23300C1D9B9D7600FD49DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B39F60F8DEB32C70D982F06 /* Pods-FilmHorizontSelectView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZUCVYSATS;
+				INFOPLIST_FILE = FilmHorizontSelectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivian.FilmHorizontSelectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E23300D1D9B9D7600FD49DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67559AECD957986EDD84BD39 /* Pods-FilmHorizontSelectView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZUCVYSATS;
+				INFOPLIST_FILE = FilmHorizontSelectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivian.FilmHorizontSelectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E23300F1D9B9D7600FD49DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FilmHorizontSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vivian.FilmHorizontSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmHorizontSelectView.app/FilmHorizontSelectView";
+			};
+			name = Debug;
+		};
+		5E2330101D9B9D7600FD49DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FilmHorizontSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vivian.FilmHorizontSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmHorizontSelectView.app/FilmHorizontSelectView";
+			};
+			name = Release;
+		};
+		5E2330121D9B9D7600FD49DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FilmHorizontSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vivian.FilmHorizontSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FilmHorizontSelectView;
+			};
+			name = Debug;
+		};
+		5E2330131D9B9D7600FD49DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FilmHorizontSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vivian.FilmHorizontSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FilmHorizontSelectView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E232FD91D9B9D7600FD49DA /* Build configuration list for PBXProject "FilmHorizontSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2330091D9B9D7600FD49DA /* Debug */,
+				5E23300A1D9B9D7600FD49DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E23300B1D9B9D7600FD49DA /* Build configuration list for PBXNativeTarget "FilmHorizontSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E23300C1D9B9D7600FD49DA /* Debug */,
+				5E23300D1D9B9D7600FD49DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E23300E1D9B9D7600FD49DA /* Build configuration list for PBXNativeTarget "FilmHorizontSelectViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E23300F1D9B9D7600FD49DA /* Debug */,
+				5E2330101D9B9D7600FD49DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2330111D9B9D7600FD49DA /* Build configuration list for PBXNativeTarget "FilmHorizontSelectViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2330121D9B9D7600FD49DA /* Debug */,
+				5E2330131D9B9D7600FD49DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E232FD61D9B9D7600FD49DA /* Project object */;
+}
